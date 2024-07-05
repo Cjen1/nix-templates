@@ -7,6 +7,10 @@
         path = ./basic;
         description = "basic template";
       };
+      typst = {
+        path = ./typst;
+        description = "Typst based project";
+      };
     };
   };
 }
