@@ -7,6 +7,10 @@
         path = ./basic;
         description = "basic template";
       };
+      python = {
+        path = ./python;
+        description = "python based project";
+      };
       typst = {
         path = ./typst;
         description = "Typst based project";
