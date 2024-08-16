@@ -15,6 +15,10 @@
         path = ./typst;
         description = "Typst based project";
       };
+      tla = {
+        path = ./tla;
+        description = "tla based project";
+      };
     };
   };
 }

@@ -6,7 +6,7 @@
   outputs = { self, flake-utils, nixpkgs }:
     flake-utils.lib.eachDefaultSystem (system:
       let pkgs = nixpkgs.legacyPackages.${system};
-          python = python.withPackages (pypkgs: [
+          python = pkgs.python3.withPackages (pypkgs: [
           ]);
       in {
         packages = { };
