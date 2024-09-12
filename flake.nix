@@ -8,6 +8,7 @@
       typst = { path = ./typst; description = "Typst based project"; };
       tla = { path = ./tla; description = "tla based project"; };
       golang = { path = ./golang; description = "Golang based project"; };
+      ocaml = { path = ./ocaml; description = "Ocaml based project"; };
     };
   };
 }
